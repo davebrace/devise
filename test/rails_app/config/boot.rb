@@ -15,10 +15,6 @@ module Devise
     def self.rails51?
       Rails.version.start_with? '5.1'
     end
-
-    def self.rails5?
-      Rails.version.start_with? '5'
-    end
   end
 end
 

@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-superclass = ActiveRecord::Migration[5.0]
-
  class CreateTables < ActiveRecord::Migration[5.0]
   def self.up
     create_table :users do |t|
